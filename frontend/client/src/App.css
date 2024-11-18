@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* General Styles */
+.container {
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 1rem; /* Add some padding */
+}
+
+/* Flexbox Utilities */
+.flex {
+  display: flex;
+}
+
+.gap-4 {
+  gap: 1rem; /* Space between flex items */
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem; /* Bottom margin for spacing */
+}
+
+/* Typography */
+.text-3xl {
+  font-size: 1.875rem; /* Font size for headings */
+}
+
+.font-bold {
+  font-weight: bold; /* Bold text */
+}
+
+.text-xl {
+  font-size: 1.25rem; /* Font size for subheadings */
+}
+
+.font-semibold {
+  font-weight: 600; /* Semi-bold text */
+}
+
+/* Background and Borders */
+.bg-white {
+  background-color: white; /* White background */
+}
+
+.bg-blue-100 {
+  background-color: #ebf8ff; /* Light blue background */
+}
+
+.bg-green-100 {
+  background-color: #f0fff4; /* Light green background */
+}
+
+.bg-red-100 {
+  background-color: #fff5f5; /* Light red background */
+}
+
+.rounded {
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+/* Shadows and Borders */
+.shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.border {
+  border-width: 1px; /* Border width for table cells */
+}
+
+/* Table Styles */
+table {
+  width: 100%; /* Full width for tables */
+  border-collapse: collapse; /* Collapse borders for tables */
+}
+
+th, td {
+  padding: 0.5rem; /* Padding for table cells */
+}
+
+/* Button Styles */
+.bg-blue-500 {
+  background-color: #4299e1; /* Blue button background color */
+}
+
+.text-white {
+  color: white; /* White text color */
+}
+
+.rounded {
+  border-radius: 0.25rem; /* Rounded corners for buttons */
+}
+
+/* Responsive Utilities (Optional) */
+/* Adjustments for smaller screens can be added here if needed */
+
+@media (max-width: 768px) {
+  .grid-cols-3 {
+      grid-template-columns: repeat(2, minmax(0, 1fr)); /* Adjust grid on smaller screens */
+  }
+}
